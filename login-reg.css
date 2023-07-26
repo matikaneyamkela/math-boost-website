@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 40%;
+    margin:0 30%;
+    height: auto;
+    padding: 15px;
+    border: 1px solid white;
+    margin-top: 10%;
+  }
+  .container-reg{
+  width: 40%;
+    margin:0 30%;
+    height: auto;
+    padding: 15px;
+    border: 1px solid white;
+    margin-top: 5%;
+  }
+  .welcoming{
+  text-align: center;
+  text-transform: uppercase;
+  color: orangered;
+  margin-top: 1%;
+  font-size: 25px;
+  font-weight: bold;
+  }
+  
+.message{
+    text-align: center;
+   }
+   .container h3, .container-reg h3{
+    text-align: center;
+    margin-bottom: 1%;
+    color: orangered;
+   }
+   .container form .form-group input, .container-reg form .form-group input{
+     width: 90%;
+     margin: 0.8% 5%;
+   }
+   .login-btn, .login-reg{
+      width: 20%;
+      padding: 2px;
+      margin: 0.8% 40%;
+      border-radius: 25px;
+      border: 1px solid orangered;
+      color: orangered;
+      background-color: transparent;
+   }
+   .not-registered, .registered{
+   width: 60%;
+   margin:0 20%;
+   }
+   
+.message-reg{
+    width: 60%;
+    margin: 0 20%;
+    padding: 5px;
+   }
+   .message-reg p{
+   text-align: center;
+   }
+   /*--------------------------------login and registration ends here-------------------------*/
